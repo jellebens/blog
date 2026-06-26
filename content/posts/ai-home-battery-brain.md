@@ -26,7 +26,11 @@ The "looking ahead" part is where the AI sits. It predicts how much electricity 
 
 The part I'm actually proud of isn't the AI. It's that I don't change anything on the real battery on a hunch.
 
+That caution starts before anything reaches the battery at all. The code that runs the show has its own suite of automated tests, and they run on every single change. A careless edit gets caught on my screen, not on the hardware keeping my lights on. It sounds boring. It's the boring that lets me trust the rest.
+
 Before I touch a setting, I replay it against months of past prices and see what it *would* have done. That's how I settled an annoying question — was it worth upgrading my power connection? I ran it both ways. The bigger connection roughly quadrupled the savings in the simulation, so I went ahead. The numbers decided, not me.
+
+I run these experiments for the small decisions too. Take a simple one: how hard should the battery work? Chase every last cent and it cycles more often, and every cycle wears it out a little. So I replayed a whole range of settings against the same historical prices and watched for the point where the extra savings stopped being worth it. The sweet spot kept almost all of the money while cycling the battery about a third less — far gentler on an expensive piece of hardware, for a difference I'd never have noticed on the bill.
 
 One result genuinely surprised me. Roughly a third of the savings I *could* be making slips away purely because no forecast is ever perfect. That's a slightly humbling number, but a useful one — it tells me the next thing to improve is the predictions, not anything else.
 
