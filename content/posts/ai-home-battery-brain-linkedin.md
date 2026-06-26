@@ -4,7 +4,7 @@ So I built an AI to outsmart it. It runs my home battery: charge when power's ch
 
 It started as one if-statement — cheap, charge; expensive, discharge. But that's short-sighted: it can't see the cheaper hour coming at 3am, or tomorrow's peak. So now, once an hour, it forecasts the home's usage, lines it up against the coming prices, plans the cheapest day-and-a-half ahead — then runs it itself.
 
-But the part I'm proud of isn't the AI. It's everything around it that makes it trustworthy enough to act on its own:
+Letting software spend my money unsupervised is a big ask. Three unglamorous things earned it that trust:
 
 → a test suite that runs on every change, so a bad edit gets caught on my screen — not on the hardware powering my house
 → backtests against months of real prices, so settings change on evidence, not hunches
